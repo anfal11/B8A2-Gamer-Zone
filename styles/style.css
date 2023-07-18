@@ -1,0 +1,117 @@
+/* Work Sans Google font import link */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* common */
+:root {
+    --primary-color: #0B0223;
+    --secondary-color: (linear-gradient(180deg, #F948B2 0%, #8758F1 100%));
+    --third-color: #3C354F;
+    --linear: #FF42A5;
+}
+
+
+/* Header Navigation Styles */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo .nav-head{
+ color: var(--linear);
+ padding-left: 1.25rem;
+font-size: 2.813rem;
+font-weight: 700;
+}
+.nav-logo .nav-span{
+    color: #0B0223;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    padding-right: 1.25rem;
+    color: var(--third-color);
+    color: #3C354F;
+font-size: 1.125rem;
+font-weight: 500;
+}
+.nav-container .li-icon{
+    width: 220px;
+    height: 50px;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.nav-container .li-icon a .fa-youtube{
+color: red;
+}
+
+/* HEader Banner Styles */
+.header-container{
+    display: flex;
+}
+
+/* Responsive Design */
+
+/* for mobile devices*/
+@media screen and (max-width: 640px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-container ul {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .nav-container .li-dev{
+        margin-top: 1rem;
+    }
+    .nav-container .li-icon{
+        margin-top: 3rem;
+    }
+}
+
+/* for tablet devices*/
+@media screen and (min-width:640px) and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-container ul {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .nav-container .li-dev{
+        margin-top: 1rem;
+    }
+    .nav-container .li-icon{
+        margin-top: 3rem;
+    }
+}
