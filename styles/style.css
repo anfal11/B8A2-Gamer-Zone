@@ -247,6 +247,7 @@ body {
     font-weight: 500;
     margin: 20px;
 }
+
 /* box hover part */
 .show {
     position: relative;
@@ -415,7 +416,7 @@ body {
 }
 
 /* Career bar starts here (optional)  */
-.career-container{
+.career-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -423,149 +424,213 @@ body {
     margin: 200px auto;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
-.career-description{
+
+.career-description {
     margin-left: 100px;
 }
-.career-head{
+
+.career-head {
     color: #FFF;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.career-para{
+
+.career-para {
     color: #FFF;
     font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.career-area{
+
+.career-area {
     color: #FFF;
-font-size: 1.1rem;
-font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
-.are1, .are2, .are3, .are4, .are5, .are6{
+
+.are1,
+.are2,
+.are3,
+.are4,
+.are5,
+.are6 {
     text-align: right;
 }
-.art1{grid-area: art1;}
-.art2{grid-area: art2;}
-.art3{grid-area: art3;}
-.art4{grid-area: art4;}
-.art5{grid-area: art5;}
-.art6{grid-area: art6;}
-.are1{grid-area: are1;}
-.are2{grid-area: are2;}
-.are3{grid-area: are3;}
-.are4{grid-area: are4;}
-.are5{grid-area: are5;}
-.are6{grid-area: are6;}
-.career-area{
+
+.art1 {
+    grid-area: art1;
+}
+
+.art2 {
+    grid-area: art2;
+}
+
+.art3 {
+    grid-area: art3;
+}
+
+.art4 {
+    grid-area: art4;
+}
+
+.art5 {
+    grid-area: art5;
+}
+
+.art6 {
+    grid-area: art6;
+}
+
+.are1 {
+    grid-area: are1;
+}
+
+.are2 {
+    grid-area: are2;
+}
+
+.are3 {
+    grid-area: are3;
+}
+
+.are4 {
+    grid-area: are4;
+}
+
+.are5 {
+    grid-area: are5;
+}
+
+.are6 {
+    grid-area: are6;
+}
+
+.career-area {
     display: grid;
-    grid-template-areas: 
-    "art1 are1"
-    "art2 are2"
-    "art3 are3"
-    "art4 are4"
-    "art5 are5"
-    "art6 are6"
+    grid-template-areas:
+        "art1 are1"
+        "art2 are2"
+        "art3 are3"
+        "art4 are4"
+        "art5 are5"
+        "art6 are6"
     ;
 }
-.career-image img{
+
+.career-image img {
     width: 100%;
 }
-.btn4{
+
+.btn4 {
     border-radius: 48px;
-background: #FFF;
-color: var(--linear);
-text-transform: var(--button-text);
-cursor: pointer;
+    background: #FFF;
+    color: var(--linear);
+    text-transform: var(--button-text);
+    cursor: pointer;
 }
+
 /* Game strategy section styles */
-.game-strategy-container{
+.game-strategy-container {
     display: flex;
     max-width: 68.75rem;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 1.25rem;
     margin: 0 auto;
-    }
-.card{
+}
+
+.card {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 0.625rem;
 }
-.card:hover{
+
+.card:hover {
     border: 1px solid #FF42A5;
     color: #FF42A5;
     border-radius: 3.125rem;
+    cursor: pointer;
 }
+
 /* Footer section styles */
-.footer-container{
+.footer-container {
     background-color: #0B0223;
     margin-top: 120px;
     padding-top: 120px;
 }
+
 .nav-logo .nav-span-footer {
     color: #ffffff;
 }
-.footer-list{
 
-   display: flex;
-   justify-content: space-evenly;
+.footer-list {
+
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 30px;
     max-width: 800px;
     margin: 0 auto;
     padding-bottom: 30px;
 }
+
 .footer-list li {
-list-style-type: none;
+    list-style-type: none;
 
 }
-.footer-list li a{
+
+.footer-list li a {
     text-decoration: none;
     color: #FFF;
-font-size: 1.125rem;
-font-weight: 600;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
-.footer-logo{
+
+.footer-logo {
     padding-bottom: 20px;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.footer-logo span a{
-padding-right: 50px;
-color: #FFF;
-font-size: 2rem;
+
+.footer-logo span a {
+    padding-right: 50px;
+    color: #FFF;
+    font-size: 2rem;
 }
-.footer-list-2{
+
+.footer-list-2 {
     display: flex;
     justify-content: space-evenly;
-     align-items: center;
-     padding-top: 30px;
-     max-width: 800px;
-     margin: 0 auto;
-     padding-bottom: 30px;
- }
- .footer-list-2 li {
- list-style-type: none;
- 
- }
- .footer-list-2 li a{
-     text-decoration: none;
-     color: rgba(255, 255, 255, 0.60);
-font-size: 1rem;
-font-weight: 500;
- }
- .footer-container p{
+    align-items: center;
+    padding-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer-list-2 li {
+    list-style-type: none;
+
+}
+
+.footer-list-2 li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-container p {
     color: #FFF;
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
-font-size: 1rem;
-font-weight: 500;
-padding-bottom: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 100px;
 }
 
 /* Responsive Design */
@@ -732,42 +797,47 @@ padding-bottom: 100px;
         order: 1;
     }
 
-    .career-container{
+    .career-container {
         grid-template-columns: repeat(1, 1fr);
         margin: 200px auto;
         background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     }
-    .career-description{
+
+    .career-description {
         max-width: 640px;
         margin: 30px 40px;
     }
-    .career-area{
+
+    .career-area {
         font-size: 0.7rem;
     }
-    .btn4{
+
+    .btn4 {
         border-radius: 16px;
-    background: #FFF;
-    color: var(--linear);
-    text-transform: var(--button-text);
-    padding: 10px 10px;
+        background: #FFF;
+        color: var(--linear);
+        text-transform: var(--button-text);
+        padding: 10px 10px;
     }
-    .game-strategy-container{
+
+    .game-strategy-container {
         display: flex;
         max-width: 68.75rem;
         align-items: center;
-        justify-content:flex-start;
+        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 1.25rem;
         margin: 0 auto;
-        }
-    .card{
+    }
+
+    .card {
         display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 0.1rem;
     }
-    /*  */
-    .footer-list{
+
+    .footer-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-top: 30px;
@@ -775,10 +845,10 @@ padding-bottom: 100px;
         margin: 0 auto;
         gap: 30px;
         justify-items: space-evenly;
-        text-align: center;   
+        text-align: center;
     }
 
-    .footer-logo{
+    .footer-logo {
         padding-top: 20px;
         padding-bottom: 20px;
         display: grid;
@@ -790,22 +860,24 @@ padding-bottom: 100px;
         align-items: center;
         text-align: center;
     }
-    .footer-logo span a{
-    padding-right: 0px;
+
+    .footer-logo span a {
+        padding-right: 0px;
     }
-    .footer-list-2{
+
+    .footer-list-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         justify-content: space-evenly;
-         align-items: center;
-         max-width: 600px;
-         margin: 0 auto;
-         text-align: center;
-         padding-top: 50px;
-         padding-bottom: 70px;
-     }
-     
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
 }
 
 /* for tablet devices*/
@@ -965,28 +1037,33 @@ padding-bottom: 100px;
         order: 1;
     }
 
-    .career-container{
+    .career-container {
         grid-template-columns: repeat(1, 1fr);
         margin: 200px auto;
         background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     }
-    .career-description{
+
+    .career-description {
         max-width: 640px;
         margin: 30px 100px;
     }
-    .career-area{
+
+    .career-area {
         font-size: 0.7rem;
     }
-    .btn4{
+
+    .btn4 {
         border-radius: 16px;
-    background: #FFF;
-    color: var(--linear);
-    text-transform: var(--button-text);
+        background: #FFF;
+        color: var(--linear);
+        text-transform: var(--button-text);
     }
-    .game-strategy-container{
-        justify-content:space-around;
-        }
-    .card{
+
+    .game-strategy-container {
+        justify-content: space-around;
+    }
+
+    .card {
         display: flex;
         justify-content: space-around;
         align-items: center;
