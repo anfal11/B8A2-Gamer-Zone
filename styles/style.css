@@ -140,6 +140,57 @@ border: 0;
 padding: 15px 30px;
 }
 
+/* Main content banner starts here (we are gamer) */
+.main-content-banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-content-banner-img{
+    margin-left: 120px;
+    width: 100%;
+}
+.main-content-banner-img img{
+    width: 100%;
+}
+.btn3{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: 0;
+    padding: 15px 30px;
+    margin: 20px 0px;
+
+}
+.main-content-banner-description{
+    text-align: right;
+    margin-right: 130px;
+    width: 100%;
+}
+.main-content-banner-description h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+}
+.main-content-banner-description .main-content-banner-para{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.main-content-banner-description .main-content-banner-para2{
+    color: #534C64;
+font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-content-banner-description  .main-content-banner-para2 > span{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
 /* Responsive Design */
 
 /* for mobile devices*/
@@ -164,19 +215,19 @@ padding: 15px 30px;
     }
   
     .banner-head{
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
     .banner-span{
-    font-size: 3.938rem;
+    font-size: 2.938rem;
     }
     .text-container{
-        padding-top: 10px;
+        padding-top: 30px;
         padding-left: 30px;
       width: 95%;
     margin-left: 15px;
     }
     .text-container p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     }
     .image-container{
         width: 100%;
@@ -185,9 +236,47 @@ padding: 15px 30px;
     .header-image{
         width: 100%;
     }
-    .btn1{
-    margin-top: 20px;
+    .btn1,.btn2{
+    margin-top: 10px;
+    padding: 10px 20px;
     }
+.main-content-banner{
+   flex-direction: column;
+   text-align: center;
+}
+.main-content-banner-img{
+    margin-left: 0px;
+}
+.btn3{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: 0;
+    padding: 15px 30px;
+    margin: 20px 0px;
+
+}
+.main-content-banner-description{
+    text-align: center;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.main-content-banner-description .main-content-banner-para{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.main-content-banner-description .main-content-banner-para2{
+    color: #534C64;
+font-size: 1.2rem;
+    font-weight: 500;
+}
+.main-content-banner-description  .main-content-banner-para2 > span{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 }
 
 /* for tablet devices*/
@@ -234,5 +323,42 @@ padding: 15px 30px;
         .header-image{
             width: 50%;
         }
-  
+        .main-content-banner{
+            flex-direction: column;
+            text-align: center;
+         }
+         /*  */
+         .main-content-banner-img{
+             margin-left: 0px;
+         }
+         .btn3{
+             border-radius: 48px;
+             background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+             color: #FFF;
+             border: 0;
+             padding: 15px 30px;
+             margin: 20px 0px;
+         
+         }
+         .main-content-banner-description{
+             text-align: center;
+             margin-right: 0px;
+             width: 100%;
+         }
+         
+         .main-content-banner-description .main-content-banner-para{
+             color: #534C64;
+             font-size: 1.125rem;
+             font-weight: 400;
+         }
+         .main-content-banner-description .main-content-banner-para2{
+             color: #534C64;
+         font-size: 1.2rem;
+             font-weight: 500;
+         }
+         .main-content-banner-description  .main-content-banner-para2 > span{
+             color: #534C64;
+             font-size: 1.5rem;
+             font-weight: 700;
+         }
 }
