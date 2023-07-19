@@ -191,6 +191,83 @@ font-size: 1.5rem;
     font-size: 2rem;
     font-weight: 700;
 }
+/* Online games Funny video starts */
+.funny-video-container{
+    margin-top: 150px;
+}
+.funny-box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto 0px;
+}
+
+.box figure img{
+    width: 100%;
+    height: auto;
+}
+.box figure figcaption{
+    color: #534C64;
+font-size: 1rem;
+font-weight: 500;
+margin: 20px;
+}
+.show{
+    position: relative;
+}
+.show .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .show:hover .overlay {
+    opacity: 1;
+    border: 3px solid #F948B2;
+    border-radius: 10px ;
+cursor: pointer;
+  }
+  
+  .show .overlay i {
+    font-size: 3rem; 
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .show .overlay span {
+    font-size: 1.25rem; 
+    color: #FF42A5;
+text-align: center;
+font-weight: 600;
+}
+.funny-video-description h1{
+font-size: 3rem;
+font-weight: 700;
+color: var(--primary-color);
+text-align: center;
+}
+.funny-video-description h1> .funny-head-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.funny-video-description p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
 /* Responsive Design */
 
 /* for mobile devices*/
