@@ -354,6 +354,17 @@ font-size: 1.2rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
+.funny-box-container{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 60%;
+}
+.funny-video-description h1{
+    font-size: 1.5rem;
+    }
+    .funny-video-description p{
+        font-size: 0.8rem;
+    }
+
 }
 
 /* for tablet devices*/
@@ -404,7 +415,7 @@ font-size: 1.2rem;
             flex-direction: column;
             text-align: center;
          }
-         /*  */
+         
          .main-content-banner-img{
              margin-left: 0px;
          }
@@ -438,4 +449,15 @@ font-size: 1.2rem;
              font-size: 1.5rem;
              font-weight: 700;
          }
+         .funny-box-container{
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 60%;
+        }
+        .funny-video-description h1{
+            font-size: 2rem;
+            }
+            .funny-video-description p{
+                font-size: 1rem;
+            }
+        
 }
